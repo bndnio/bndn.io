@@ -61,11 +61,11 @@ export default function Home() {
 
           <a
             className="card"
-            href="https://github.com/bndnio/learn"
+            href="https://github.com/bndnio/learning"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <h3>Learn 📚</h3>
+            <h3>Learning 📚</h3>
             <p>A collection of problems &amp; challenges I like to play with.</p>
           </a>
         </div>
@@ -177,7 +177,7 @@ export default function Home() {
 
         .grid {
           display: flex;
-          align-items: center;
+          align-items: stretch;
           justify-content: center;
           flex-wrap: wrap;
 
@@ -187,7 +187,7 @@ export default function Home() {
 
         .card {
           margin: 1rem;
-          flex-basis: 45%;
+          flex: 1 1 0;
           padding: 1.5rem;
           text-align: left;
           color: inherit;
