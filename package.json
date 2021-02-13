@@ -1,5 +1,6 @@
 {
-  "name": "learn-starter",
+  "name": "bndnio",
+  "description": "My own little piece of the internet ❤️",
   "version": "0.1.0",
   "private": true,
   "scripts": {

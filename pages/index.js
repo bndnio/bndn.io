@@ -4,58 +4,79 @@ export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>Create Next App</title>
+        <title>Brendon</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
         <h1 className="title">
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+          Hey, I'm Brendon 👋
         </h1>
 
         <p className="description">
-          Get started by editing <code>pages/index.js</code>
+          I'm a fullstack software engineer in Victoria BC.<br/>
+          Working&nbsp;
+          <a
+            href="https://certn.co"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            @certn
+          </a>
+          &nbsp;in React &amp; Django/DRF on AWS.
         </p>
 
+        <div className="links">
+          <a
+            className="link"
+            href="https://github.com/bndnio"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            GitHub
+          </a>
+          <a
+            className="link"
+            href="https://twitter.com/bndnio"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Twitter
+          </a>
+        </div>
+
+        <h2>Projects</h2>
+
         <div className="grid">
-          <a href="https://nextjs.org/docs" className="card">
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
-
-          <a href="https://nextjs.org/learn" className="card">
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
+          <a
+            className="card"
+            href="https://simbs.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <h3>SIMBS 🚵</h3>
+            <p>Static site for my local trails society using Gatsby &amp; Prismic.</p>
           </a>
 
           <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
             className="card"
+            href="https://github.com/bndnio/learn"
+            target="_blank"
+            rel="noopener noreferrer"
           >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
-          <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className="card"
-          >
-            <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
+            <h3>Learn 📚</h3>
+            <p>A collection of problems &amp; challenges I like to play with.</p>
           </a>
         </div>
       </main>
 
       <footer>
         <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+          href="https://github.com/bndnio/bndnio"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className="logo" />
+          Build with ❤️ by me!
         </a>
       </footer>
 
@@ -102,24 +123,35 @@ export default function Home() {
           text-decoration: none;
         }
 
-        .title a {
+        h1 a, p a {
           color: #0070f3;
-          text-decoration: none;
         }
 
-        .title a:hover,
-        .title a:focus,
-        .title a:active {
+        h1 a:hover,
+        p a:hover,
+        .links a:hover,
+        h1 a:focus,
+        p a:focus,
+        .links a:focus,
+        h1 a:active,
+        p a:active,
+        .links a:active {
           text-decoration: underline;
         }
 
-        .title {
-          margin: 0;
+        h1, h2 {
+          margin-bottom: 0;
           line-height: 1.15;
-          font-size: 4rem;
         }
 
-        .title,
+        h1 {
+          font-size: 4rem;
+        }
+        h2 {
+          font-size: 3rem;
+        }
+
+        h1,
         .description {
           text-align: center;
         }
@@ -127,6 +159,10 @@ export default function Home() {
         .description {
           line-height: 1.5;
           font-size: 1.5rem;
+        }
+
+        .link {
+          margin: 1rem;
         }
 
         code {
@@ -145,7 +181,7 @@ export default function Home() {
           flex-wrap: wrap;
 
           max-width: 800px;
-          margin-top: 3rem;
+          margin-top: 1rem;
         }
 
         .card {
@@ -176,10 +212,6 @@ export default function Home() {
           margin: 0;
           font-size: 1.25rem;
           line-height: 1.5;
-        }
-
-        .logo {
-          height: 1em;
         }
 
         @media (max-width: 600px) {
