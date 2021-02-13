@@ -35,6 +35,7 @@ export default function Home() {
           >
             GitHub
           </a>
+          •
           <a
             className="link"
             href="https://twitter.com/bndnio"
@@ -72,7 +73,7 @@ export default function Home() {
 
       <footer>
         <a
-          href="https://github.com/bndnio/bndnio"
+          href="https://github.com/bndnio/bndn.io"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -162,7 +163,7 @@ export default function Home() {
         }
 
         .link {
-          margin: 1rem;
+          margin: 0.5rem;
         }
 
         code {
