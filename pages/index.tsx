@@ -1,4 +1,4 @@
-import Head from 'next/head'
+import Head from "next/head";
 
 export default function Home() {
   return (
@@ -9,18 +9,13 @@ export default function Home() {
       </Head>
 
       <main>
-        <h1 className="title">
-          Hey, I'm Brendon 👋
-        </h1>
+        <h1 className="title">Hey, I'm Brendon 👋</h1>
 
         <p className="description">
-          I'm a fullstack software engineer in Victoria BC.<br/>
+          I'm a fullstack software engineer in Victoria BC.
+          <br />
           Working&nbsp;
-          <a
-            href="https://certn.co"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <a href="https://certn.co" target="_blank" rel="noopener noreferrer">
             @certn
           </a>
           &nbsp;in React &amp; Django/DRF on AWS.
@@ -56,7 +51,10 @@ export default function Home() {
             rel="noopener noreferrer"
           >
             <h3>SIMBS 🚵</h3>
-            <p>Static site for my local trails society using Gatsby &amp; Prismic.</p>
+            <p>
+              Static site for my local trails society using Gatsby &amp;
+              Prismic.
+            </p>
           </a>
 
           <a
@@ -66,7 +64,9 @@ export default function Home() {
             rel="noopener noreferrer"
           >
             <h3>Learning 📚</h3>
-            <p>A collection of problems &amp; challenges I like to play with.</p>
+            <p>
+              A collection of problems &amp; challenges I like to play with.
+            </p>
           </a>
         </div>
       </main>
@@ -124,7 +124,8 @@ export default function Home() {
           text-decoration: none;
         }
 
-        h1 a, p a {
+        h1 a,
+        p a {
           color: #0070f3;
         }
 
@@ -140,7 +141,8 @@ export default function Home() {
           text-decoration: underline;
         }
 
-        h1, h2 {
+        h1,
+        h2 {
           margin-bottom: 0;
           line-height: 1.15;
         }
@@ -238,5 +240,5 @@ export default function Home() {
         }
       `}</style>
     </div>
-  )
+  );
 }
