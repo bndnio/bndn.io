@@ -12,13 +12,15 @@ export default function Home() {
         <h1 className="title">Hey, I'm Brendon 👋</h1>
 
         <p className="description">
-          I'm a fullstack software engineer in Victoria BC.
+          I'm a software engineering team lead in Victoria BC.
           <br />
           Working&nbsp;
           <a href="https://certn.co" target="_blank" rel="noopener noreferrer">
             @certn
           </a>
-          &nbsp;in React &amp; Django/DRF on AWS.
+          .
+          <br />
+          &nbsp;Fostering psychological safety &amp; high performance.
         </p>
 
         <div className="links">
